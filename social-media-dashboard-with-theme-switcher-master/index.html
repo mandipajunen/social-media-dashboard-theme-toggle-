@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="light-theme.css" />
+  <link rel="stylesheet" href="mobile-view.css" />
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+
+  </style>
+</head>
+
+<body>
+  <div class="main">
+    <h1>Social Media Dashboard</h1>
+    <p class="total-followers">Total Followers: 23,004</p>
+    <div class="themes">
+      <label class="switch">
+        <input type="checkbox" id="switch">
+        <span class="slider round"></span>
+        <p class="toggle">Dark Mode</p>
+      </label>
+    </div>
+
+    <div class="first-container">
+      <div class="first-card card" light-theme>
+        <img class="face" src="./images/icon-facebook.svg"> <p-name>@nathanf</p-name></img>
+        <p class="main-numbers">1987</p>
+        <p class="under-numbers">Followers</p>
+        <img class="today" src="./images/icon-up.svg"> <p-today>12 Today</p> </img>
+      </div>
+
+      <div class="second-card card">
+        <img class="twitter" src="./images/icon-twitter.svg"><p-name>@nathanf</p-name></img>
+        <p class="main-numbers"> 1044</p>
+        <p class="under-numbers">Followers</p>
+        <img class="today" src="./images/icon-up.svg"> <p-today>99 Today</p> </img>
+
+      </div>
+
+      <div class="third-card card">
+        <img class="insta" src="./images/icon-instagram.svg"><p-name>@realnathanf</p-name></img>
+        <p class="main-numbers">11k</p>
+        <p class="under-numbers">Followers</p>
+        <img class="today" src="./images/icon-up.svg"> <p-today>1099 Today</p></img>
+
+      </div>
+
+      <div class="fourth-card card">
+        <img class="youtube" src="./images/icon-youtube.svg"><p-name>Nathan F.</p-name></img>
+        <p class="main-numbers"> 8239</p>
+        <p class="under-numbers">Subscribers</p>
+        <img class="today" src="./images/icon-down.svg"> <p-today style="color: rgb(255, 95, 95) ;">144 Today</p></img>
+
+      </div>
+    </div>
+    <h2>Overview - Today</h2>
+    <div class="second-container">
+      <div class="card-row">
+        <div class="first-card2 card2">
+          <div class="first-row">
+            <img class="face2 face" src="./images/icon-facebook.svg">
+            <p class="statics">Page Views</p>
+          </div>
+          <div class="second-row">
+            <p class="second-numbers">87</p>
+            <img class="precent3" src="./images/icon-up.svg"><p-precent>3%</p-precent></img>
+          </div>
+        </div>
+
+        <div class="second-card2 card2">
+          <div class="first-row">
+            <img class="face2" src="./images/icon-facebook.svg">
+            <p class="statics">Likes</p>
+          </div>
+          <div class="second-row">
+            <p class="second-numbers">52</p>
+            <img class="precent3" src="./images/icon-down.svg"><p-precent
+              style="color:  rgb(255, 95, 95) ;">2%</p-precent></img>
+          </div>
+        </div>
+
+
+        <div class="third-card2 card2">
+          <div class="first-row">
+            <img class="insta2" src="./images/icon-instagram.svg">
+            <p class="statics"> Likes</p>
+          </div>
+          <div class="second-row">
+            <p class="second-numbers">5462</p>
+            <img class="precent2" src="./images/icon-up.svg"><p-precent2> 2257%</p-precent2></img>
+          </div>
+        </div>
+
+
+        <div class="fourth-card2 card2">
+          <div class="first-row">
+            <img class="insta2" src="./images/icon-instagram.svg">
+            <p class="statics">Profile Views</p>
+          </div>
+          <div class="second-row">
+            <p class="second-numbers">52k</p>
+            <img class="precent" src="./images/icon-up.svg"><p-precent>1375%</p-precent></img>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="card-row2">
+        <div class="fifth-card2 card2">
+          <div class="first-row">
+            <img class="twitter2" src="./images/icon-twitter.svg">
+            <p class="statics">Retweets</p>
+          </div>
+          <div class="second-row">
+            <p class="second-numbers">117</p>
+            <img class="precent" src="./images/icon-up.svg"><p-precent>303%</p-precent></img>
+          </div>
+        </div>
+
+
+        <div class="sixth-card2 card2">
+          <div class="first-row">
+            <img class="twitter2" src="./images/icon-twitter.svg">
+            <p class="statics">Likes</p>
+          </div>
+          <div class="second-row">
+            <p class="second-numbers">507</p>
+            <img class="precent" src="./images/icon-up.svg"> <p-precent>553%</p-precent></img>
+          </div>
+        </div>
+
+
+        <div class="seventh-card2 card2">
+          <div class="first-row">
+            <img class="youtube2" src="./images/icon-youtube.svg">
+            <p class="statics">Likes</p>
+          </div>
+          <div class="second-row">
+            <p class="second-numbers">107</p>
+            <img class="precent" src="./images/icon-down.svg"><p-precent
+              style="color:  rgb(255, 95, 95) ;">19%</p-precent></img>
+          </div>
+        </div>
+
+
+        <div class="eighth-card2 card2">
+          <div class="first-row">
+            <img class="youtube2" src="./images/icon-youtube.svg">
+            <p class="statics">Total Views</p>
+          </div>
+          <div class="second-row">
+            <p class="second-numbers">1407</p>
+            <img class="precent4" src="./images/icon-down.svg"><p-precent
+              style="color:  rgb(255, 95, 95) ;">12%</p-precent></img>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+<script>
+  const switchTheme = document.querySelector("#switch");
+
+  switchTheme.addEventListener("click", function () {
+    document.body.classList.toggle("light-mode");
+  });
+</script>
+
+</html>

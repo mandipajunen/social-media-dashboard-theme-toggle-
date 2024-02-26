@@ -1,0 +1,394 @@
+/*---------MOBILE VIEW---------*/
+
+
+
+
+
+
+@media screen and (max-width: 770px) {
+    body {
+        font-family: "Inter", sans-serif;
+        width: 200px;
+        height: 160vh;
+        flex-direction: column;
+        padding-top: 10px;
+
+        background: var(--bg-color);
+    }
+
+    :root {
+        --bg-color: rgb(23, 23, 46);
+        --primary-text-color: white;
+        --secondary-text-color: rgb(175, 185, 225);
+        --toggle-color: rgb(45, 48, 105);
+        --toggle-text-color: rgb(175, 185, 225);
+        --numbers-text-color: white;
+        --card1-color: rgb(38, 42, 74);
+        --card-hover-color: rgba(63, 70, 125, 0.735);
+        --card2-color: rgb(38, 42, 74);
+        --under-numbers-color: rgb(175, 185, 225);
+        --p-today-color: rgb(60, 187, 88);
+        --p-name-color: rgb(175, 185, 225);
+        --statics-color: rgb(175, 185, 225);
+        --second-numbers-color: white;
+        --slider-color: linear-gradient(to right, hsl(212, 99%, 62%), rgb(42, 179, 126));
+
+    }
+
+    .light-mode {
+        --bg-color: hsl(0, 0%, 100%);
+        --primary-text-color: rgb(0, 0, 0);
+        --secondary-text-color: rgb(120, 120, 120);
+        --toggle-color: rgb(255, 255, 255);
+        --toggle-text-color: rgb(147, 146, 146);
+        --numbers-text-color: rgb(0, 0, 0);
+        --card1-color: hsl(227, 47%, 96%);
+        --card-hover-color: hsl(223, 28%, 90%);
+        --card2-color: hsl(227, 47%, 96%);
+        --under-numbers-color: rgb(0, 0, 0);
+        --p-today-color: rgb(60, 187, 88);
+        --p-name-color: rgb(120, 120, 120);
+        --statics-color: rgb(120, 120, 120);
+        --second-numbers-color: rgb(0, 0, 0);
+        --slider-color: grey;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+
+
+
+    }
+
+    h1 {
+        padding: 10px;
+        color: var(--primary-text-color);
+        font-size: 25px;
+        text-align: center;
+        width: 300px;
+        padding-left: 150px;
+
+
+
+    }
+
+    .total-followers {
+        color: var(--secondary-text-color);
+        margin: 10px;
+        font-weight: 600;
+        margin-top: -20px;
+        width: 200px;
+        padding-left: 48px;
+        padding-bottom: 30px;
+
+    }
+
+
+    .toggle {
+        color: var(--toggle-text-color);
+        width: 100px;
+        margin-left: -330px;
+        margin-top: -6px;
+        font-weight: 600;
+        font-size: 13px;
+        text-align: left;
+        padding-left: 15px;
+
+
+    }
+
+    .switch {
+        text-align: right;
+        margin-left: 600px;
+        margin-right: 40px;
+        position: relative;
+        display: inline-block;
+        width: 60px;
+        height: 34px;
+
+
+    }
+
+    .themes {
+        flex-direction: row;
+        text-align: right;
+        padding-right: 20px;
+
+        font-size: 12px;
+
+        padding-bottom: 30px;
+    }
+
+
+
+
+    .first-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: 30px;
+        padding-left: 80px;
+
+
+    }
+
+    .card {
+        padding: 30px;
+        width: 320px;
+        height: 200px;
+        margin-left: 140px;
+        background-color: var(--card1-color);
+        text-align: center;
+        border-radius: 10px;
+
+
+    }
+
+    .card:hover {
+        background-color: var(--card-hover-color);
+    }
+
+    .face {
+
+        width: 20px;
+        height: 20px;
+        margin-bottom: -4px;
+    }
+
+    p-name {
+        color: var(--p-name-color);
+        margin: 5px;
+        font-weight: 600;
+
+    }
+
+    .main-numbers {
+        font-size: 50px;
+        font-weight: 700;
+        color: var(--numbers-text-color);
+
+    }
+
+    .under-numbers {
+        color: var(--under-numbers-color);
+        letter-spacing: 5px;
+        margin-top: -40px;
+        margin-bottom: 25px;
+        font-weight: 300;
+        text-transform: uppercase;
+        font-size: 12px;
+
+
+
+    }
+
+    .today {
+        margin: auto;
+        padding: 2px;
+
+    }
+
+    p-today {
+        color: hsl(163, 72%, 41%);
+        margin: auto 1px;
+        font-weight: 700;
+        font-size: 12px;
+    }
+
+    h2 {
+        color: var(--second-numbers-color);
+        padding: 10px;
+        text-align: center;
+        padding-left: 80px;
+
+    }
+
+    .second-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: 0px;
+        padding-left: 0px;
+
+    }
+
+    .card2 {
+        border-radius: 10px;
+        width: 320px;
+        height: 100px;
+        padding-top: 10px;
+        padding-bottom: 40px;
+        padding-left: 30px;
+        padding-right: 30px;
+        background-color: var(--card2-color);
+        flex-direction: column;
+        margin-left: 220px;
+        margin-bottom: 20px;
+
+    }
+
+    .card2:hover {
+        background-color: var(--card-hover-color);
+    }
+
+    .face2 {
+        width: 20px;
+        height: 20px;
+        padding-top: 10px;
+
+    }
+
+    .first-row {
+        display: flex;
+        flex-direction: row-reverse;
+        margin: auto 10px;
+
+        justify-content: space-between;
+
+        gap: 0px;
+
+    }
+
+
+
+
+    .statics {
+        font-size: 15px;
+        color: var(--statics-color);
+        font-weight: 600;
+
+
+    }
+
+    .second-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: auto 10px;
+        gap: 20px;
+
+    }
+
+    .second-numbers {
+        color: var(--second-numbers-color);
+        font-size: 30px;
+        font-weight: 700;
+
+
+
+
+    }
+
+    .precent {
+        width: 8px;
+        height: 5px;
+        margin-left: 20px;
+        margin: auto 3px;
+        padding-left: -200px;
+        margin-right: -100px;
+        margin-bottom: 45px;
+
+    }
+
+    .precent2 {
+        width: 8px;
+        height: 5px;
+        margin: auto 1px;
+        padding-left: -200px;
+        margin-right: -110px;
+        margin-bottom: 45px;
+    }
+
+    .precent3 {
+        width: 8px;
+        height: 5px;
+        margin: auto 1px;
+        padding-left: -200px;
+        margin-right: -120px;
+        margin-bottom: 45px;
+    }
+
+
+    .precent4 {
+        width: 8px;
+        height: 5px;
+        margin: auto 1px;
+        padding-left: -200px;
+        margin-right: -100px;
+        margin-bottom: 45px;
+    }
+
+    p-precent {
+        color: hsl(163, 72%, 41%);
+        margin: auto 1px;
+        padding-top: 1px;
+
+        margin-left: 3px;
+        font-weight: 700;
+        font-size: 12px;
+    }
+
+    p-precent2 {
+        color: rgb(60, 187, 88);
+        margin: auto 3px;
+        margin-right: 0px;
+
+        font-weight: 700;
+        font-size: 12px;
+    }
+
+
+    .card-row {
+        display: block;
+
+    }
+
+    .card-row2 {
+        display: block;
+
+
+    }
+
+    .youtube {
+        width: 20px;
+        height: 20px;
+        margin-bottom: -6px;
+    }
+
+    .youtube2 {
+        width: 20px;
+        height: 20px;
+        padding-top: 10px;
+        margin: 8px;
+    }
+
+
+
+    .insta {
+        width: 20px;
+        height: 20px;
+        margin-bottom: -6px;
+    }
+
+    .insta2 {
+        width: 20px;
+        height: 20px;
+        padding-top: 10px;
+        margin: 8px;
+    }
+
+    .twitter {
+        width: 20px;
+        height: 20px;
+        margin-bottom: -6px;
+    }
+
+    .twitter2 {
+        width: 20px;
+        height: 20px;
+        padding-top: 10px;
+        margin: 8px;
+    }
+
+}

@@ -1,0 +1,17 @@
+.light-mode {
+    --bg-color: hsl(0, 0%, 100%);
+    --primary-text-color: rgb(0, 0, 0);
+    --secondary-text-color: rgb(120, 120, 120);
+    --toggle-color: rgb(255, 255, 255);
+    --toggle-text-color: rgb(147, 146, 146);
+    --numbers-text-color: rgb(0, 0, 0);
+    --card1-color: hsl(227, 47%, 96%);
+    --card-hover-color: hsl(223, 28%, 90%);
+    --card2-color: hsl(227, 47%, 96%);
+    --under-numbers-color: rgb(0, 0, 0);
+    --p-today-color: rgb(60, 187, 88);
+    --p-name-color: rgb(120, 120, 120);
+    --statics-color: rgb(120, 120, 120);
+    --second-numbers-color: rgb(0, 0, 0);
+    --slider-color: grey;
+}
